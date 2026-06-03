@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday chịii 🎂</title>
+  <link rel="icon" type="image/png" href="https://i.postimg.cc/qvjz8QFW/Logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="topic-link" style="position:fixed;top:12px;right:12px;z-index:3000;background:rgba(255,255,255,0.95);padding:10px 14px;border-radius:24px;box-shadow:0 12px 24px rgba(0,0,0,0.12);font-size:0.95rem;color:#333;">
+    <a href="topic.html" style="color:#ff47a1;text-decoration:none;font-weight:700;">Mở trang chủ đề</a>
+  </div>
+  <div id="password-screen" class="password-screen">
+    <div class="password-content">
+      <img src="https://i.pinimg.com/originals/8c/d0/61/8cd061f25177d38be9719798c5127a9f.gif" alt="Cute GIF"
+        class="pass-gif" />
+      <div class="pass-right-side">
+        <p class="pass-label">Nhập Mật Khẩu</p>
+        <div class="pass-input-wrapper">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+        <div class="keyboard">
+          <button class="key" data-value="1">1</button>
+          <button class="key" data-value="2">2</button>
+          <button class="key" data-value="3">3</button>
+          <button class="key" data-value="4">4</button>
+          <button class="key" data-value="5">5</button>
+          <button class="key" data-value="6">6</button>
+          <button class="key" data-value="7">7</button>
+          <button class="key" data-value="8">8</button>
+          <button class="key" data-value="9">9</button>
+          <button class="key empty"></button>
+          <button class="key" data-value="0">0</button>
+          <button class="key delete" id="key-del">⌫</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="main-experience" style="display: none">
+    <div class="floating-elements" id="floating-elements"></div>
+
+    <div class="container">
+      <div class="cake-container">
+        <img src="asset/candle.png" alt="Candle" class="candle-img" id="candle-img" />
+        <img src="asset/cake.png" alt="Cake" class="cake-img" id="cake-clickable" style="cursor: pointer" />
+      </div>
+      <p class="instruction" id="instruction-text">
+        Nhấn vào bánh để thắp ngọn nến đi chị🌹🌹
+      </p>
+    </div>
+
+    <div class="letter-container" id="letter-container">
+      <img src="asset/letter.png" alt="Letter" class="letter-img" />
+      <div class="letter-text">Chúc Mừng Sinh Nhật chị 
+    12/06/2009</div>
+    </div>
+
+    <div class="message-modal" id="message-modal">
+      <div class="fireworks-container" id="fireworks-container"></div>
+      <div class="letter-paper">
+        <span class="close-btn" id="close-modal">&times;</span>
+        <h2>Kính gửi tới chị iuuu! 🎂</h2>
+        <p>
+          Chúc mừng sinh nhật chị iuuu nhé!💕 🎉 <br /><br />
+          Chúc chị tuổi mới luôn vui vẻ😘, hạnh phúc và gặt hái được thật nhiều
+          thành công. Cảm ơn chị đã luôn là một người bạn,người chị tuyệt vời, luôn bên
+          cạnh chia sẻ mọi buồn vui cùng với iem. Chị là một người rất đặc biệt và quan trọng đối với iem, và iem rất may mắn khi có chị trong cuộc sống.
+          <br /><br />
+          Mong rằng tình chị iem của chúng ta sẽ luôn bền chặt như thế này mãi
+          nhé! Hãy tận hưởng ngày đặc biệt này thật trọn vẹn nhenn!
+          <br /><br />
+          Thương chịiii nhiều!❤️
+        </p>
+        <div class="message-images">
+          <img src="asset/your-image-1.png" alt="Hình ảnh chúc mừng" class="message-image" />
+          <img src="asset/your-image-2.png" alt="Hình ảnh chúc mừng" class="message-image" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <audio id="bg-music" src="asset/sound/nhac.mp3" loop></audio>
+  <audio id="pop-sound" src="asset/sound/pop.mp3"></audio>
+  <audio id="candle-sound" src="asset/sound/candle.mp3"></audio>
+  <audio id="firework-sound" src="asset/sound/Firework.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
